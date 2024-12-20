@@ -4,28 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La ciudad es tuya. Viaja con nosotros | Cabify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Kanit&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c59426bbb3.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="library.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="grid bg-1 pad-inline-6">
-    <nav class="flex between pad-top-1">
-        <ul class="flex ">
-            <li><a class="size-3" href="#">cabify</a></li>
-            <li><a href="#">Conductores</a></li>
-            <li><a href="#">Empresas</a></li>
-            <li><a href="#">Pasajeros</a></li>
-            <li><a href="#">Media</a></li>
-            <li><a href="#">Logística</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Ayuda</a></li>
+<body class="grid pad-inline-6 ">
+    <nav class="flex between bg-1 radius-5 pad-inline-1 margin-top-1">
+        <ul class="flex-center-center gap-1">
+            <li><a class="size-3 bold text-2" href="#">cabify</a></li>
+            <li  class="menu relative size-1"><a class="text-3" href="#">Conductores</a>
+                <ul class="sub-menu absolute none radius-5 bg-1">
+                    <li class="flex column pad-2 gap-1 bold">
+                        <p class="text-3 upper size-0">conducir</p>
+                        <a class="text-4 size-2" href="#">Inicio</a>
+                    </li>  
+                    <li class="flex column pad-2 gap-1 bold border-left">
+                        <p class="text-3 upper size-0 ">cabify para flotas</p>
+                        <a class="text-4 size-2" href="#">Inicio</a>
+                        <a class="text-4 size-2" href="#">Plataforma</a>
+                        <a class="text-4 size-2" href="#">Contacto</a>
+                    </li>
+                    <li class="flex column pad-2 gap-1 bold border-left">
+                        <p class="text-3 upper size-0">otros</p>
+                        <a class="text-4" href="#">Seguridad</a>
+                        <a class="text-4" href="#">Accesibilidad</a>
+                        <a class="text-4" href="#">Principios éticos</a>
+                        <a class="text-4" href="#">Centro de ayuda conductores</a>
+                        <a class="text-4" href="#">Centro de ayuda flotas</a>
+                    </li>  
+                    <li class="flex column pad-2 gap-1 bold border-left">
+                        <div class="div-foto"><img class="nav-foto radius-4" src="images/foto-nav-conductor.png" alt="foto-nav-conductor"></div>
+                        <p class="text-4 line">Únete a nuestro equipo y ayúdanos a transformar la movilidad urbana</p>
+                        <a class="text-2 bold" href="#">Regístrate<i class="fa-solid fa-chevron-right chevron-icon"></i></a>
+                    </li>  
+                </ul> 
+            </li>
+            <li><a class="text-3 size-1" href="#">Empresas</a></li>
+            <li><a class="text-3 size-1" href="#">Pasajeros</a></li>
+            <li><a class="text-3 size-1" href="#">Media</a></li>
+            <li><a class="text-3 size-1" href="#">Logística</a></li>
+            <li><a class="text-3 size-1" href="#">Nosotros</a></li>
+            <li><a class="text-3 size-1" href="#">Ayuda</a></li>
         </ul>
-        <ul class="flex">
-            <li><a href="#">Iniciar sesión</a></li>
-            <li><a href="#">Regístrate</a></li>
-            <li><a class="flex" href="#">
+        <ul class="flex-center-center">
+            <li><a class="text-2" href="#">Iniciar sesión</a></li>
+            <li class="btn-inicio"><a class="text-1" href="#">Regístrate</a></li>
+            <li class="btn-idioma"><a class="flex-center-center" href="#">
                 <img src="images/icon-flag.png" alt="flag">
-                <p>ar</p>
+                <p class="text-2 upper">ar</p>
             </a></li>
         </ul>
     </nav>
