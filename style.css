@@ -2,7 +2,6 @@ body{
     width:100%;
 }
 
-
 .btn-inicio{
     background-color: var(--bg-btn-primary);
     border-radius: var(--radius-1);
@@ -23,9 +22,9 @@ body{
 
 .menu:hover .sub-menu{
     top: 45px;
-    left: -96px;
+    transform: translateX(-10%);
     display: grid;
-    grid-template-columns: repeat(4, minmax(255px, 1fr));
+    grid-template-columns: repeat(4, minmax(256px, 1fr));
     justify-content: center;
 }
 
@@ -39,6 +38,13 @@ body{
     }
 }
 
+.menu-3-col:hover .sub-menu-3-col{
+    top: 45px;
+    transform: translateX(-19%);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(340px, 1fr));
+    justify-content: center;
+}
 .chevron-icon{
     font-size: .75rem;
     padding-inline-start: .25rem;

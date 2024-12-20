@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="library.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="grid pad-inline-6 ">
+<body class="grid pad-inline-6 bg-3 ">
     <nav class="flex between bg-1 radius-5 pad-inline-1 margin-top-1">
         <ul class="flex-center-center gap-1">
             <li><a class="size-3 bold text-2" href="#">cabify</a></li>
@@ -43,8 +43,46 @@
                     </li>  
                 </ul> 
             </li>
-            <li><a class="text-3 size-1" href="#">Empresas</a></li>
-            <li><a class="text-3 size-1" href="#">Pasajeros</a></li>
+            <li class="menu-3-col relative"><a class="text-3 size-1" href="#">Empresas</a>
+                <ul class="sub-menu-3-col none absolute bg-1 radius-5 bold">
+                    <li class="flex column pad-2 gap-1">
+                        <p class="text-3 upper size-0">cabify para empresas</p>
+                        <a class="text-4 size-2" href="#">Inicio</a>
+                        <a class="text-4 size-2" href="#">Soluciones</a>
+                        <a class="text-4 size-2" href="#">Recursos</a>
+                    </li>
+                    <li class="flex column pad-2 gap-1">
+                        <a class="text-4 size-2 pad-top-2" href="#">Plataforma</a>
+                        <a class="text-4 size-2" href="#">Contacta con ventas</a>
+                    </li>
+                    <li class="flex column pad-2 gap-1 border-left">
+                        <p class="text-3 upper size-0">otros</p>
+                        <a class="text-4" href="#">Seguridad</a>
+                        <a class="text-4" href="#">Centro de ayuda empresas</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-3-col relative"><a class="text-3 size-1" href="#">Pasajeros</a>
+                <ul class="sub-menu-3-col none absolute bg-1 radius-5 bold">
+                    <li class="flex column pad-2 gap-1">
+                        <p class="text-3 upper size-0">viaja</p>
+                        <a href="#">Viaja en Cabify</a>
+                        <a href="#">Viaja en Moto</a>
+                    </li>
+                    <li class="flex column pad-2 gap-1 border-left">
+                        <p>envia</p>
+                        <a href="#">Envios</a>
+                    </li>
+                    <li class="flex column pad-2 gap-1 border-left">
+                        <p>otros</p>
+                        <a href="#">Tarifas</a>
+                        <a href="#">Seguridad</a>
+                        <a href="#">Accesibilidad</a>
+                        <a href="#">Principios éticos</a>
+                        <a href="#">Centro de ayuda pasajeros</a>
+                    </li>
+                </ul>
+            </li>
             <li><a class="text-3 size-1" href="#">Media</a></li>
             <li><a class="text-3 size-1" href="#">Logística</a></li>
             <li><a class="text-3 size-1" href="#">Nosotros</a></li>
