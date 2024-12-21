@@ -21,13 +21,17 @@ body{
 
 
 .menu:hover .sub-menu{
-    top: 45px;
-    transform: translateX(-10%);
+    top: 3rem;
     display: grid;
     grid-template-columns: repeat(4, minmax(256px, 1fr));
     justify-content: center;
 }
-
+.sub-menu:hover{
+    transform: scaleY(2.5);
+}
+.conductores{
+    transform: translateX(-9.5%);
+}
 .div-foto{
     width: 200px;
     height: 150px;
@@ -39,15 +43,41 @@ body{
 }
 
 .menu-3-col:hover .sub-menu-3-col{
-    top: 45px;
-    transform: translateX(-19%);
+    top: 3rem;
     display: grid;
-    grid-template-columns: repeat(3, minmax(340px, 1fr));
+    grid-template-columns: repeat(4, minmax(255px, 1fr));
     justify-content: center;
 }
 .chevron-icon{
     font-size: .75rem;
     padding-inline-start: .25rem;
 }
+.empresas{
+    transform: translateX(-19.5%);
+}
+.pasajeros{
+    transform: translateX(-27.5%);
+}
 
+.menu-1-col:hover .sub-menu-1-col{
+   display: flex;
+   width: 1023px;
+   top: 3rem;
+   transform: translateX(-35.5%);
 
+}
+
+.menu-2-col:hover .sub-menu-2-col{
+    display: grid;
+    grid-template-columns: minmax(256px, 1fr) minmax(765px, 3fr);
+    top: 4.75rem;
+}
+.logistica{
+    transform: translateX(-40.8%);
+}
+.nosotros{
+    transform: translateX(-48%);
+}
+.ayuda{
+   transform: translateX(-55.8%);
+}    
