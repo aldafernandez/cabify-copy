@@ -43,7 +43,6 @@ body{
 }
 
 .menu-3-col:hover .sub-menu-3-col{
-    top: 3rem;
     display: grid;
     grid-template-columns: repeat(4, minmax(255px, 1fr));
     justify-content: center;
@@ -54,9 +53,11 @@ body{
 }
 .empresas{
     transform: translateX(-19.5%);
+    top: 3rem;
 }
 .pasajeros{
     transform: translateX(-27.5%);
+    top: 3rem;
 }
 
 .menu-1-col:hover .sub-menu-1-col{
@@ -81,3 +82,18 @@ body{
 .ayuda{
    transform: translateX(-55.8%);
 }    
+.iniciar-sesion{
+    transform: translateX(-70.5%);
+    top: 3rem;
+}
+.png-inicio-sesion{
+    width: 200px;
+}
+.registro{
+    transform: translateX(-81.9%);
+    top: 3.5rem;
+}
+.idioma{
+    transform: translateX(-92.3%);
+    top: 3.5rem;
+}
