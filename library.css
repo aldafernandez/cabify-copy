@@ -66,11 +66,11 @@
 .btn-primary{ background-color: var(--bg-btn-primary);}
 .btn-secondary{ background-color: var(--bg-btn-secondary);}
 
-.text-1{ color: var(--text-1);}
-.text-2{ color: var(--text-2);}
-.text-3{ color: var(--text-3);}
-.text-4{ color: var(--text-4);}
-.text-5{ color: var(--text-5);}
+.color-1{ color: var(--text-1);}
+.color-2{ color: var(--text-2);}
+.color-3{ color: var(--text-3);}
+.color-4{ color: var(--text-4);}
+.color-5{ color: var(--text-5);}
 /*----COLORS----*/
 
 /*----FONT----*/
@@ -185,6 +185,11 @@
 .gap-6{ gap: var(--gap-6);}
 /*----MARGIN & PADDING----*/
 
+/*----WIDTH----*/
+.vw-100{ width: 100vw;}
+.vw-80{ width: 76vw;}
+
+/*----WIDTH----*/
 /*----FLEX----*/
 .flex{ display: flex;}
 .flex-center{ 
@@ -203,7 +208,7 @@
 .end{ justify-content: flex-end;}
 
 .wrap{ flex-wrap: wrap;}
-
+.row{ flex-direction: row;}
 .none{ display: none;}
 /*----FLEX----*/
 
@@ -219,7 +224,6 @@
     "footer";
 }
 
-
 /*----GRID----*/
 
 /*----POSITION----*/
@@ -230,3 +234,16 @@
 /*----BORDES-----*/
 .border-left{ border-left: 1px solid #dbd6d6;}
 /*----BORDES----*/
+
+.menu:hover .submenu{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: 3rem;
+}
+.transform-1{transform: translateX(-9.5%);}
+.transform-2{transform: translateX(-19.8%);}
+.transform-3{transform: translateX(-27.5%);}
+.transform-4{transform: translateX(-57.5%);}
+
+.span-2{grid-column: span 2;}
+.span-3{grid-column: span 3;}
