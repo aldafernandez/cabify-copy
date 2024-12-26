@@ -1,4 +1,4 @@
-body{ width:100%;}
+body{ max-width:100%;}
 
 .img-idioma{
     width: 20px;
@@ -19,3 +19,13 @@ body{ width:100%;}
     padding-inline-start: .3rem;
 }
 
+.menu:hover{position: relative;}
+.menu:hover::after{
+    content: '▲';
+    position: absolute;
+    top: 22px;
+    left: 50px;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: var(--bg-primary);
+}
