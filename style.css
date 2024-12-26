@@ -1,24 +1,9 @@
-body{
-    width:100%;
-}
+body{ width:100%;}
 
-.btn-inicio{
-    background-color: var(--bg-btn-primary);
-    border-radius: var(--radius-1);
-    padding: .5rem 1rem;
-    margin: .5rem;
+.img-idioma{
+    width: 20px;
+    height: 20px;
 }
-
-.btn-idioma{
-    border: 1px solid #d3d0d0;
-    border-radius: var(--radius-1);
-    padding: .5rem;
-    & img{
-        width: 20px;
-        height: 20px;
-    }
-}
-
 .div-foto{
     width: 200px;
     height: 150px;
@@ -28,12 +13,9 @@ body{
         height: 100%;
     }
 }
+
 .chevron-icon{
     font-size: .75rem;
-    padding-inline-start: .25rem;
-}
-
-.png-inicio-sesion{
-    width: 200px;
+    padding-inline-start: .3rem;
 }
 
