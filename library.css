@@ -31,6 +31,7 @@
     --gap-3:2.5rem;
     --gap-4:3rem;
     --gap-5:3.5rem;
+    --gap-5-5:5rem;
     --gap-6:10rem;
 
     --radius-0:6px;
@@ -96,6 +97,7 @@
 .size-3{ font-size: var(--size-3);}
 .size-4{ font-size: var(--size-4);}
 .size-5{ font-size: var(--size-5);}
+
 /*----TEXT SIZE----*/
 
 /*----RADIUS----*/
@@ -157,6 +159,7 @@
 .pad-block-3{ padding-block: var(--gap-3);}
 .pad-block-4{ padding-block: var(--gap-4);}
 .pad-block-5{ padding-block: var(--gap-5);}
+.pad-block-5-5{ padding-block: var(--gap-5-5);}
 .pad-block-6{ padding-block: var(--gap-6);}
 
 .pad-left-1{ padding-inline-start: var(--gap-1);}
@@ -239,11 +242,10 @@
 .grid{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 4fr 1fr 2fr;
+    grid-template-rows: 1fr 24fr 12fr;
     grid-area: 
     "nav"
     "main"
-    "aside"
     "footer";
 }
 
