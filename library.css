@@ -130,6 +130,9 @@
 
 .margin-top-1{ margin-block-start: var(--gap-1);}
 .margin-top-2{ margin-block-start: var(--gap-2);}
+.margin-top-3{ margin-block-start: var(--gap-3);}
+.margin-top-4{ margin-block-start: var(--gap-4);}
+
 
 .margin-bottom-1{ margin-block-end:var(--gap-2);}
 
@@ -234,7 +237,7 @@
 .grid{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 150px 10fr 3fr 3fr;
+    grid-template-rows: 150px 4fr 1fr 2fr;
     grid-area: 
     "nav"
     "main"
@@ -251,6 +254,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 /*----GRID----*/
 
 /*----POSITION----*/
@@ -260,6 +268,7 @@
 
 /*----BORDES-----*/
 .border-left{ border-left: 1px solid #dbd6d6;}
+.border-top{ border-top:.25px solid #999797;}
 
 .borde-1{
     background-color: #dddcdf;
