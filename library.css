@@ -242,7 +242,7 @@
 .grid{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 24fr 12fr;
+    grid-template-rows: 100px 1fr 1150px;
     grid-area: 
     "nav"
     "main"
@@ -348,4 +348,10 @@
     padding: .5rem;
 }
 /*----BOTONES----*/
+
+/*----SELECTION----*/
+.select:focus{
+    outline: px solid var(--bg-third);
+}
+/*----SELECTION----*/
 
