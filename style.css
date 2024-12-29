@@ -30,3 +30,6 @@ body{ max-width:100%;}
     color: var(--bg-fifth);
 }
 
+.icon-bars{
+    left: 92%;
+}

@@ -88,6 +88,8 @@
 .line-0{line-height: var(--line-heigth-0);}
 .line-1{line-height: var(--line-height-1);} 
 .line-2{line-height: var(--line-height-2);}
+
+.text-align{text-align: center;}
 /*----FONT----*/
 
 /*----TEXT SIZE----*/
@@ -97,7 +99,6 @@
 .size-3{ font-size: var(--size-3);}
 .size-4{ font-size: var(--size-4);}
 .size-5{ font-size: var(--size-5);}
-
 /*----TEXT SIZE----*/
 
 /*----RADIUS----*/
@@ -205,6 +206,7 @@
 .width-fit{width: fit-content;}
 .width-1{width: 95%;}
 .width-2{width: 100%;}
+
 .width-500{ width: 500px;}
 .width-300{ width: 250px;}
 .width-200{ width: 200px;}
@@ -298,6 +300,11 @@
     padding:var(--gap-0);
     height: fit-content;
 }
+.borde-4{
+    border: 1px solid #d3d0d0;
+    border-radius: var(--radius-2);
+    padding: 1rem;
+}
 /*----BORDES----*/
 
 /*----HOVER----*/
@@ -344,7 +351,7 @@
 
 .btn-secondary{
     border: 1px solid #d3d0d0;
-    border-radius: var(--radius-1);
+    border-radius: var(--radius-2);
     padding: .5rem;
 }
 /*----BOTONES----*/
@@ -359,30 +366,51 @@
 
 /*----RESPONSIVE----*/
 @media (max-width:1250px){
-    .pad-inline-6{padding-inline: var(--gap-1);}
-    .margin-6{margin: var(--gap-1);}
-    .margin-inline-6{margin-inline: var(--gap-1) ;}
+    .pad-inline-6{padding-inline:var(--gap-5) ;}
+    .margin-6{margin:var(--gap-5) ;}
+    .margin-inline-6{margin-inline:var(--gap-5) ;}
 }
-@media(max-width:1000px){
+@media(max-width:1070px){
+    .nav{background-color: var(--bg-primary);}
+    .menu{display: none;}
+    .icon-bars{display: block;}
+    .section-1{max-width: 550px;}
+    .img-main{
+        width: 100% ;
+        height: auto;
+    }
+}
+@media(max-width:1070px){
     .media-1000{
         display: flex;
         flex-direction: column;
         padding-inline: var(--gap-3);
     }
+    .pad-inline-6{padding-inline:8rem;}
+    .margin-6{margin:8rem ;}
+    .margin-inline-6{margin-inline:8rem ;}
     .grid-2{
         display: flex;
         flex-direction: column;
     }
     .grid-3{
-        display: flex;
-        flex-direction: column;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
     }
     .grid-4{ 
        display: grid;
        grid-template-columns: repeat(2, 1fr);
        grid-template-rows: auto;
     }
+    .div-footer{
+        margin-inline: var(--gap-5);
+        padding: var(--gap-3);
+    }
+    .div-footer-text{padding-inline: var(--gap-4);}
+    .footer
 }
 
 
+
 /*----RESPONSIVE----*/
+

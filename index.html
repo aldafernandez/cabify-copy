@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="grid bg-1">
-    <nav class="flex between bg-5 radius-5 pad-inline-1 margin-6 margin-top-1 heigth-content">
+    <nav class="nav flex between bg-5 radius-5 pad-inline-1 margin-block-4 margin-inline-6 margin-top-1 heigth-content">
         <ul class="flex-center-center gap-1">
             <li><a class="size-3 bold color-2" href="#">cabify</a></li>
+            <i class="fa-solid fa-bars icon-bars color-2 borde-1 absolute none"></i>
             <li  class="menu relative size-1"><a class="color-3" href="#">Conductores</a>
                 <ul class="submenu absolute none radius-5 bg-5 pad-bottom-3 vw-80 transform-1">
                     <li class="flex column pad-2 gap-1">
@@ -204,17 +205,17 @@
     </nav>
     <main>
         <section>
-            <div class="flex top-1 pad-inline-6 pad-bottom-5 media-1000">
-                <div class="flex column pad-top-2 gap-1">
+            <div class="flex gap-2 pad-inline-6 pad-bottom-5 media-1000">
+                <div class="flex column pad-top-2 gap-1 section-1">
                     <h2 class="size-5 line-2 color-4">Más seguridad, mayor calidad y una ciudad a tu alcance</h2>
                     <p class="size-2 color-3">Conviértete en conductor y empieza a ganar dinero</p>
                     <a class="btn-primary width-fit color-1 opacity" href="#">Conduce con nosotros</a>
                     <a class="color-2 bold opacity" href="#">¿Eres un gestor de flota? <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <img class="gap-0 width-1 radius-4" src="images/foto-nav-conductor.png" alt="conductor">
+                <img class="img-main width-1 radius-4 rendering" src="images/foto-nav-conductor.png" alt="conductor">
             </div>
             <div class="flex gap-3 bg-5 radius-5 pad-inline-6 pad-block-5 media-1000">
-                <img class="heigth-vh radius-5" src="images/mapa-main.png" alt="google-maps">
+                <img class="img-main heigth-vh radius-5" src="images/mapa-main.png" alt="google-maps">
                 <div>
                     <h4 class="color-2 bold borde-1">¿Por qué elegir cabify?</h4>
                     <div class="flex column gap-3 pad-block-2">
@@ -254,10 +255,10 @@
                     <p class="color-3 size-2">Tus empleados o clientes se moverán de la manera más rápida y segura. Controla desde una sola plataforma todos tus gastos, sigue todos los viajes en tiempo real y establece límites de horarios, precios y zonas.</p>
                     <a class="color-2 bold opacity" href="#">Descubrí Cabify para empresas <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <img class="width-500 radius-4" src="images/foto-3-main.png" alt="cabify para empresas">
+                <img class="img-main width-500 radius-4" src="images/foto-3-main.png" alt="cabify para empresas">
             </div>
             <div class="flex top-1 pad-inline-6 pad-bottom-2 gap-2 media-1000">
-                <img class="width-500 radius-4" src="images/cabify logistics.png" alt="Cabify logistics">
+                <img class="img-main width-500 radius-4" src="images/cabify logistics.png" alt="Cabify logistics">
                 <div class="flex column pad-top-2 gap-1">
                     <h4 class="color-2 bold borde-1">Cabify logistics</h4>
                     <p class="color-4 size-3 bold">La solución lógica para la logística de tu empresa</p>
@@ -271,17 +272,17 @@
             <p class="color-3 size-2">Cada detalle que forma parte de nuestro servicio se ha creado teniendo en cuenta tu seguridad</p>
         </div>
         <div class="grid-3 pad-inline-6 pad-block-2 gap-3 media-1000">
-            <div class=" flex column gap-0 pad-1">
+            <div class=" flex column borde-4 gap-0 pad-1">
                 <i class="fa-solid fa-circle-user color-6 fa-3x"></i>
                 <p class="color-4 size-2">Botón de seguridad</p>
                 <p class="color-3">Añade una persona de confianza para que reciba notificaciones cada vez que viajes, comparte tu ubicación en tiempo real o contacta con emergencias.</p>
             </div>
-            <div class="flex column gap-0">
+            <div class="flex column borde-4 gap-0">
                 <img class="width-55" src="images/location-icon.png" alt="location-icon">
                 <p class="color-4 size-2">Viajes geolocalizados</p>
                 <p class="color-3">Cada viaje está geolocalizado y puedes compartir tu viaje con tus amigos o familiares para que sepan dónde estás.</p>
             </div>
-            <div class="flex column gap-0">
+            <div class="flex column borde-4 gap-0">
                 <img class="width-55" src="images/mensaje-icon.png" alt="mensaje-icon">
                 <p class="color-4 size-2">Estamos aquí para ti</p>
                 <p class="color-3">Nuestro equipo de atención al cliente está disponible para ayudarte y responder a tus dudas y preguntas.</p>
@@ -292,9 +293,9 @@
     </main>
 
     <footer class="bg-3">
-        <div class="flex-center-center column bg-2 pad-5 margin-inline-6 margin-block-5 radius-5 color-1 gap-1">
+        <div class="div-footer flex-center-center column bg-2 pad-4 margin-inline-6 margin-block-5 radius-5 color-1 gap-1">
             <p class="margin-top-2 borde-3" >Cabify en tu ciudad</p>
-            <p class="size-3 pad-inline-6 bold">Estamos disponibles en 6 países y más de 40 ciudades por todo el mundo</p>
+            <p class="div-footer-text size-3 pad-inline-6 bold text-align">Estamos disponibles en 6 países y más de 40 ciudades por todo el mundo</p>
             <a class="color-1 borde-2 margin-bottom-1 bold opacity" href="#">Conoce más sobre nosotros</a>
         </div>
         <div class="flex between pad-inline-6 pad-top-2 pad-bottom-2">
@@ -346,7 +347,7 @@
                 <a class="color-7" href="#">Políticas de cookies</a>  
             </div>
         </div>
-        <div class="flex align pad-inline-6 between pad-block-2 bg-3">
+        <div class="flex align pad-inline-6 between pad-block-2 bg-3 footer-media">
             <select class=" select width-300 size-2 color-1 bg-3">
                 <option value="argentina">Argentina</option>
                 <option value="chile">Chile</option>
