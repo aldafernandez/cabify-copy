@@ -16,7 +16,7 @@
     <nav class="nav flex between bg-5 radius-5 pad-inline-1 margin-block-4 margin-inline-6 margin-top-1 heigth-content">
         <ul class="flex-center-center gap-1">
             <li><a class="size-3 bold color-2" href="#">cabify</a></li>
-            <i class="fa-solid fa-bars icon-bars color-2 borde-1 absolute none"></i>
+            <a href="#"><i class="fa-solid fa-bars icon-bars color-2 borde-1 absolute none"></i></a>
             <li  class="menu relative size-1"><a class="color-3" href="#">Conductores</a>
                 <ul class="submenu absolute none radius-5 bg-5 pad-bottom-3 vw-80 transform-1">
                     <li class="flex column pad-2 gap-1">
@@ -272,23 +272,24 @@
             <p class="color-3 size-2">Cada detalle que forma parte de nuestro servicio se ha creado teniendo en cuenta tu seguridad</p>
         </div>
         <div class="grid-3 pad-inline-6 pad-block-2 gap-3 media-1000">
-            <div class=" flex column borde-4 gap-0 pad-1">
+            <div class=" flex column borde-4 borde-none gap-0 pad-1">
                 <i class="fa-solid fa-circle-user color-6 fa-3x"></i>
                 <p class="color-4 size-2">Botón de seguridad</p>
                 <p class="color-3">Añade una persona de confianza para que reciba notificaciones cada vez que viajes, comparte tu ubicación en tiempo real o contacta con emergencias.</p>
             </div>
-            <div class="flex column borde-4 gap-0">
+            <div class="flex column borde-4 borde-none gap-0">
                 <img class="width-55" src="images/location-icon.png" alt="location-icon">
                 <p class="color-4 size-2">Viajes geolocalizados</p>
                 <p class="color-3">Cada viaje está geolocalizado y puedes compartir tu viaje con tus amigos o familiares para que sepan dónde estás.</p>
             </div>
-            <div class="flex column borde-4 gap-0">
+            <div class="flex column borde-4 borde-none gap-0">
                 <img class="width-55" src="images/mensaje-icon.png" alt="mensaje-icon">
                 <p class="color-4 size-2">Estamos aquí para ti</p>
                 <p class="color-3">Nuestro equipo de atención al cliente está disponible para ayudarte y responder a tus dudas y preguntas.</p>
             </div>
+            <img class="pad-bottom-3 width-80" src="images/DATAWEB.jpg" alt="data fiscal">
         </div>
-        <img class="pad-left-6 pad-bottom-3 width-300" src="images/DATAWEB.jpg" alt="data fiscal">
+        
     
     </main>
 
@@ -298,7 +299,7 @@
             <p class="div-footer-text size-3 pad-inline-6 bold text-align">Estamos disponibles en 6 países y más de 40 ciudades por todo el mundo</p>
             <a class="color-1 borde-2 margin-bottom-1 bold opacity" href="#">Conoce más sobre nosotros</a>
         </div>
-        <div class="flex between pad-inline-6 pad-top-2 pad-bottom-2">
+        <div class="flex between pad-inline-6 pad-top-2 pad-bottom-2 footer-apps">
             <p class="size-5 color-1">cabify</p>
             <div class="flex gap-1">
                 <a href="#"><img class="width-125" src="images/app-store.png" alt="app-store"></a>
@@ -307,27 +308,44 @@
         </div>
         <div class="grid-4 border-top border-bottom margin-inline-6 pad-block-5 color-1 media-1000">
             <div class="flex column gap-0">
-                <p class="size-2">Conductores</p>
-                <a class="color-7" href="#">Conductores</a>
-                <a class="color-7 pad-bottom-1" href="#">Cabify para flotas</a>
-                <p class="size-2">Pasajeros</p>
-                <a class="color-7" href="#">Viaja en cabify</a>
-                <a class="color-7" href="#">Envíos</a>
-                <a class="color-7" href="#">Tarifas</a>  
+                <div class="flex column min-gap">
+                    <p class="size-2">Conductores</p>
+                    <a class="color-7" href="#">Conductores</a>
+                    <a class="color-7" href="#">Cabify para flotas</a>
+                </div>
+                <div class="flex column min-gap">
+                    <p class="size-2">Empresas</p>
+                    <a class="color-7" href="#">Cabify para empresas</a>
+                    <a class="color-7" href="#">Soluciones</a>
+                    <a class="color-7" href="#">Plataforma</a>
+                    <a class="color-7" href="#">Recursos</a>
+                </div>
+                <div class="flex column min-gap">
+                    <p class="size-2">Pasajeros</p>
+                    <a class="color-7" href="#">Viaja en cabify</a>
+                    <a class="color-7" href="#">Envíos</a>
+                    <a class="color-7" href="#">Tarifas</a>  
+                </div>      
             </div>
             <div class="flex column gap-0">
-                <p class="size-2">Media</p>
-                <a class="color-7 pad-bottom-1" href="#">Cabify Media</a>
-                <p class="size-2">Logística</p>
-                <a class="color-7 pad-bottom-1" href="#">Cabify Logistics</a>
-                <p class="size-2">Centros de ayuda</p>
-                <a class="color-7" href="#">Pasajeros</a>
-                <a class="color-7" href="#">Empresas</a>
-                <a class="color-7" href="#">Flotas</a>
-                <a class="color-7" href="#">Conductores</a>
-                <a class="color-7" href="#">Logística</a> 
+                <div class="flex column min-gap">
+                    <p class="size-2">Media</p>
+                    <a class="color-7" href="#">Cabify Media</a>
+                </div>
+                <div class="flex column min-gap">
+                    <p class="size-2">Logística</p>
+                    <a class="color-7" href="#">Cabify Logistics</a>
+                </div>
+                <div class="flex column min-gap">
+                    <p class="size-2">Centros de ayuda</p>
+                    <a class="color-7" href="#">Pasajeros</a>
+                    <a class="color-7" href="#">Empresas</a>
+                    <a class="color-7" href="#">Flotas</a>
+                    <a class="color-7" href="#">Conductores</a>
+                    <a class="color-7" href="#">Logística</a> 
+                </div>   
             </div>
-            <div class="flex column gap-0">
+            <div class="flex column min-gap">
                 <p class="size-2">Nosotros</p>
                 <a class="color-7" href="#">Sobre nosotros</a>
                 <a class="color-7" href="#">Conoce nuestra marca</a>
@@ -340,7 +358,7 @@
                 <a class="color-7" href="#">Prensa</a>
                 <a class="color-7" href="#">Blog</a>  
             </div>
-            <div class="flex column gap-0">
+            <div class="flex column min-gap">
                 <p class="size-2">Legal</p>
                 <a class="color-7" href="#">Terminos y condiciones</a>
                 <a class="color-7" href="#">Privacidad</a>
