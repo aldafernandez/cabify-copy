@@ -247,7 +247,6 @@
 .grid{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px, 1fr minmax(1150px), 1fr;
     grid-area: 
     "nav"
     "main"
@@ -430,6 +429,7 @@
         display: flex;
         flex-direction: column;
         gap: var(--gap-1);
+        padding-inline-start: var(--gap-3);
     }
 }
 
