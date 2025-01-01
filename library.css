@@ -466,7 +466,7 @@
     }
     .menu-footer:hover .chevron-footer {
         transform:translateY(-100%) rotate(180deg);
-        transition-duration: .1s;
+        transition-duration: .5s;
     }
     
 }
