@@ -34,6 +34,11 @@ body{ max-width:100%;}
     left: 92%;
     transform: translateY(-35%);
 }
+
+.icon-xmark{
+    left: 92%;
+    transform: translateY(-35%);
+}
 .chevron-footer{
     left:92%;
     transform: translateY(-100%);

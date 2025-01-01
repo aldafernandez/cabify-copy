@@ -318,13 +318,13 @@
 /*----HOVER----*/
 
 /*----POSITION-----*/
-.transform-1{transform: translateX(-9.5%);}
-.transform-2{transform: translateX(-19%);}
-.transform-3{transform: translateX(-26.8%);}
-.transform-4{transform: translateX(-34.5%);}
-.transform-5{transform: translateX(-39.5%);}
-.transform-6{transform: translateX(-46.5%);}
-.transform-7{transform: translateX(-53.5%);}
+.transform-1{transform: translateX(-10.5%);}
+.transform-2{transform: translateX(-20%);}
+.transform-3{transform: translateX(-27.8%);}
+.transform-4{transform: translateX(-35.5%);}
+.transform-5{transform: translateX(-40.5%);}
+.transform-6{transform: translateX(-47.5%);}
+.transform-7{transform: translateX(-54.5%);}
 .transform-8{transform: translateX(-72.5%);}
 .transform-9{transform: translateX(-82.8%);}
 .transform-10{transform: translateX(-92%);}
@@ -380,6 +380,7 @@
         width: 100% ;
         height: auto;
     }
+    
 }
 @media(max-width:1070px){
     .media-1000{
