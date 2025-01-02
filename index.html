@@ -14,10 +14,11 @@
 </head>
 <body class="grid bg-1">
     <nav class="nav flex between bg-5 radius-5 pad-inline-1 margin-block-4 margin-inline-6 margin-top-1 heigth-content">
-        <ul class="flex-center-center gap-1">
-            <li><a class="size-3 bold color-2" href="#">cabify</a></li>
+        <ul class="flex-center-center gap-1 nav-menu">
+            <li><a class="logo size-3 bold color-2" href="#">cabify</a></li>
             <a href="#"><i id="open-menu" class="fa-solid fa-bars icon-bars color-2 borde-1 absolute none"></i></a>
             <a href="#"><i id="close-menu" class="fa-solid fa-xmark icon-xmark absolute borde-1 none"></i></a>
+            <li><a class="menu size-3 bold color-2 none" href="#">cabify</a></li>
             <li  class="menu relative size-1"><a class="color-3" href="#">Conductores</a>
                 <ul class="submenu absolute none radius-5 bg-5 pad-bottom-3 vw-80 transform-1">
                     <li class="flex column pad-2 gap-1">
@@ -148,7 +149,7 @@
                 </ul>
             </li>
         </ul>
-        <ul class="flex-center-center pad-inline-1">
+        <ul class="flex-center-center pad-inline-1 nav-menu2">
             <li class="menu relative size-1"><a class="color-3" href="#">Iniciar sesión</a>
                 <ul class="submenu none absolute bg-5 radius-5 pad-bottom-3 vw-80 transform-8">
                     <li class="flex-center-center column pad-block-2">
@@ -379,7 +380,7 @@
             </ul>
         </section>
         <div class="flex align pad-inline-6 between pad-block-2 bg-3 footer-options">
-            <select class="select width-300 size-2 color-1 bg-3">
+            <select class="select width-250 size-2 color-1 bg-3">
                 <option value="argentina">Argentina</option>
                 <option value="chile">Chile</option>
                 <option value="colombia">Colombia</option>
@@ -398,5 +399,6 @@
             <p class="flex align gap-1 color-1 pad-rigth-4"><i class="fa-regular fa-copyright"></i>2024 Cabify S.A</p>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
