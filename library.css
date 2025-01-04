@@ -319,16 +319,16 @@
 /*----HOVER----*/
 
 /*----POSITION-----*/
-.transform-1{transform: translateX(-10.5%);}
-.transform-2{transform: translateX(-20%);}
-.transform-3{transform: translateX(-27.8%);}
-.transform-4{transform: translateX(-35.5%);}
-.transform-5{transform: translateX(-40.5%);}
-.transform-6{transform: translateX(-47.5%);}
-.transform-7{transform: translateX(-54.5%);}
-.transform-8{transform: translateX(-72.5%);}
-.transform-9{transform: translateX(-82.8%);}
-.transform-10{transform: translateX(-92%);}
+.transform-1{transform: translateX(-22%);}
+.transform-2{transform: translateX(-31.5%);}
+.transform-3{transform: translateX(-39%);}
+.transform-4{transform: translateX(-46.5%);}
+.transform-5{transform: translateX(-52%);}
+.transform-6{transform: translateX(-59%);}
+.transform-7{transform: translateX(-66.1%);}
+.transform-8{transform: translateX(-74.5%);}
+.transform-9{transform: translateX(-84.5%);}
+.transform-10{transform: translateX(-93.5%);}
 /*----POSITION-----*/
 
 /*----SPAN----*/
@@ -374,16 +374,42 @@
 }
 
 @media(max-width:1071px){
+    /*menu hamburguesa*/
     .header{background-color: var(--bg-primary);}
-    .menu {display: none;}
+    /*.menu {display: none;}*/
     .icon-bars{
+        position: absolute;
         display: block;
         top: 5%;
-       
+        right: 0;
     }
-    main{padding-top: 3rem;}
     
+    .nav {
+        position: absolute;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #dddcdf;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.13);
+        padding: 1rem;
+        left: 0;
+        gap: 1rem;
     
+        
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+        
+        & .menu{
+            font-size: var(--size-2);
+            
+        }
+
+    }
+    .logo-2{
+        display: block;
+    }
 }
 @media(max-width:1070px){
     .section-1{max-width: 550px;}
@@ -432,6 +458,8 @@
     }
     .size-3{font-size: var(--size-2);}
     .size-2{font-size: var(--size-1);}
+    .logo{font-size: var(--size-3);}
+    .logo-2{font-size: var(--size-3);}
     .grid-3{
         display: flex;
         flex-direction: column;
