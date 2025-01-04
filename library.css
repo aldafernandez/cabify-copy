@@ -374,7 +374,7 @@
 
 @media(max-width:1071px){
     .nav{background-color: var(--bg-primary);}
-    /*.menu, .logo{display: none;}*/
+    .menu {display: none;}
     .icon-bars{
         display: block;
         top: 5%;
@@ -387,9 +387,9 @@
         flex-direction: column;
         & .nav-menu{flex-direction: column;}
         & .nav-menu2{flex-direction: column;}
-     
        
     }
+   
     
     main{padding-top: 3rem;}
     
