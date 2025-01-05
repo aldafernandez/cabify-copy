@@ -374,42 +374,51 @@
 }
 
 @media(max-width:1071px){
-    /*menu hamburguesa*/
+    /*MENU HAMBURGUESA*/
     .header{background-color: var(--bg-primary);}
-    /*.menu {display: none;}*/
+    .menu{display: none;}
     .icon-bars{
         position: absolute;
         display: block;
         top: 5%;
         right: 0;
     }
-    
-    .nav {
+    .nav-visible {
+        opacity: 1;
+        visibility: visible;
         position: absolute;
         flex-direction: column;
         align-items: flex-start;
         background-color: #dddcdf;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.13);
         padding: 1rem;
-        left: 0;
         gap: 1rem;
-    
-        
-    }
-    .nav-list{
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 0;
-        
-        & .menu{
-            font-size: var(--size-2);
-            
-        }
-
-    }
-    .logo-2{
+        width: 100%;
+        & .icon-xmark {
+        position:absolute;
         display: block;
-    }
+        top: 5%;
+        right: 0;
+        } 
+        & .nav-list{
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 0;
+          width: 100%;
+          & .logo-2{
+              display: block;
+          }
+          & .menu{
+              font-size: var(--size-2);
+              
+          }
+    
+        }
+    }  
+}
+.nav-not-visible{
+    opacity: 0;
+    visibility: hidden;
 }
 @media(max-width:1070px){
     .section-1{max-width: 550px;}

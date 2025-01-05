@@ -30,10 +30,7 @@ body{ max-width:100%;}
     color: var(--bg-fifth);
 }
 
-.icon-xmark{
-    left: 92%;
-    transform: translateY(-35%);
-}
+
 .chevron-footer{
     left:92%;
     transform: translateY(-100%);
