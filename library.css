@@ -376,14 +376,14 @@
 @media(max-width:1071px){
     /*MENU HAMBURGUESA*/
     .header{background-color: var(--bg-primary);}
-    .menu{display: none;}
     .icon-bars{
         position: absolute;
         display: block;
         top: 5%;
         right: 0;
     }
-    .nav-visible {
+    .nav{display: none;}
+    .nav-visible{
         opacity: 1;
         visibility: visible;
         position: absolute;
@@ -394,6 +394,7 @@
         padding: 1rem;
         gap: 1rem;
         width: 100%;
+        height: 100vh;
         & .icon-xmark {
         position:absolute;
         display: block;
@@ -405,21 +406,32 @@
           align-items: flex-start;
           padding-left: 0;
           width: 100%;
+          gap: .60rem;
           & .logo-2{
               display: block;
-          }
+            }
           & .menu{
-              font-size: var(--size-2);
-              
-          }
-    
+              font-size: var(--size-2);  
+            }
+          & .btn-primary {
+              background-color:#dddcdf;
+              padding:0;
+              margin:0;
+            & a{
+                color:var(--color-3);
+                }
+            }
+          & .btn-secondary{
+                border: none;
+                border-radius: 0;
+                padding:0;
+                & p{color:var(--color-3)}
+            }
         }
     }  
 }
-.nav-not-visible{
-    opacity: 0;
-    visibility: hidden;
-}
+
+
 @media(max-width:1070px){
     .section-1{max-width: 550px;}
     .img-main{
