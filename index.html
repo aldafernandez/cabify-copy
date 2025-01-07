@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="library.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="grid bg-1">
-    <header class="header flex between bg-5 radius-5 margin-block-4 margin-inline-6 margin-top-1 heigth-content relative" >
+<body class="grid bg-1 ">
+    <header class="header flex between bg-5 radius-5 margin-block-4  margin-top-1 relative margin-inline-10 heigth-60" >
         <a class="logo size-3 bold color-2 pad-left-1 flex-center-center" href="#">cabify</a>
         <a href="#"><i id="open-menu" class="fa-solid fa-bars icon-bars color-2 borde-1 none"></i></a>
         <nav id="nav" class="nav flex">
@@ -22,7 +22,7 @@
                     <a class="logo-2 size-3 bold color-2 none" href="#">cabify</a>
                     <a href="#"><i id="close-menu" class="fa-solid fa-xmark fa-2x icon-xmark none"></i></a>
                 </li>
-                <li  class="menu relative size-1"><a class="color-3" href="#">Conductores</a>
+                <li  class="menu relative size-1"><a class="color-3"  href="#">Conductores</a>
                     <ul class="submenu absolute none radius-5 bg-5 pad-bottom-3 vw-80 transform-1">
                         <li class="flex column pad-2 gap-1">
                             <p class="color-3 upper size-0">conducir</p>
@@ -152,7 +152,7 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="flex-center-center pad-left-3 pad-rigth-min nav-list">
+            <ul class="flex-center-center pad-left-3 pad-rigth-min nav-list gap-1">
                 <li class="menu relative size-1"><a class="color-3" href="#">Iniciar sesión</a>
                     <ul class="submenu none absolute bg-5 radius-5 pad-bottom-3 vw-80 transform-8">
                         <li class="flex-center-center column pad-block-2">
@@ -169,7 +169,8 @@
                         </li>
                     </ul>
                 </li>
-                <li id="btnJs" class="btn-primary menu relative size-1"><a class="color-1 opacity" href="#">Regístrate</a>
+                <li class="menu relative">
+                    <a id="btnJs" class="btn-primary size-1 color-1 opacity" href="#">Regístrate</a>
                     <ul class="submenu none absolute bg-5 size-1 radius-5 pad-bottom-3 vw-80 transform-9">
                         <li class="flex-center-center column pad-block-2">
                             <a href="#"><img class="width-200"  src="images/conductor.png" alt="png conductor"></a>
@@ -185,9 +186,11 @@
                         </li>
                     </ul>
                 </li>
-                <li id="btnJs" class="btn-secondary menu relative"><a class="flex-center-center" href="#">
-                    <img class="img-idioma" src="images/icon-flag.png" alt="flag">
-                    <p class="color-2 upper text">ar</p></a>
+                <li class="menu relative">
+                    <a id="btnJs" class="flex-center-center btn-secondary" href="#">
+                        <img class="img-idioma" src="images/icon-flag.png" alt="flag">
+                        <p class="color-2 upper text">ar</p>
+                    </a>
                     <ul class="submenu none absolute bg-5 radius-5 pad-bottom-3 vw-80 transform-10 submenu-top-1">
                         <li class="flex-center column gap-1 pad-2">
                             <p class="color-3 upper size-0 bold">local</p>
@@ -212,7 +215,7 @@
     </header>
     <main>
         <section>
-            <div class="flex gap-2 pad-inline-6 pad-bottom-5 media-1000">
+            <div class="flex gap-2 pad-bottom-5 pad-inline-10 media-1000">
                 <div class="flex column pad-top-2 gap-1 section-1">
                     <h2 class="size-5 line-2 color-4">Más seguridad, mayor calidad y una ciudad a tu alcance</h2>
                     <p class="size-2 color-3">Conviértete en conductor y empieza a ganar dinero</p>
@@ -221,7 +224,7 @@
                 </div>
                 <img class="img-main width-1 radius-4 rendering" src="images/foto-nav-conductor.png" alt="conductor">
             </div>
-            <div class="flex gap-3 bg-5 radius-5 pad-inline-6 pad-block-5 media-1000">
+            <div class="flex gap-3 bg-5 radius-5 pad-block-5 media-1000 pad-inline-10 ">
                 <img class="img-main heigth-vh radius-5" src="images/mapa-main.png" alt="google-maps">
                 <div>
                     <h4 class="color-2 bold borde-1">¿Por qué elegir cabify?</h4>
@@ -255,7 +258,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex top-1 pad-inline-6 pad-block-5 gap-2 media-1000">
+            <div class="flex top-1 pad-block-5 gap-2 media-1000 pad-inline-10">
                 <div class="flex column pad-top-2 gap-1">
                     <h4 class="color-2 bold borde-1">Cabify para empresas</h4>
                     <p class="color-4 size-3 bold">Un nuevo concepto del transporte corporativo</p>
@@ -264,7 +267,7 @@
                 </div>
                 <img class="img-main width-500 radius-4" src="images/foto-3-main.png" alt="cabify para empresas">
             </div>
-            <div class="flex top-1 pad-inline-6 pad-bottom-2 gap-2 media-1000">
+            <div class="flex top-1 pad-bottom-2 gap-2 media-1000 pad-inline-10">
                 <img class="img-main width-500 radius-4" src="images/cabify logistics.png" alt="Cabify logistics">
                 <div class="flex column pad-top-2 gap-1">
                     <h4 class="color-2 bold borde-1">Cabify logistics</h4>
@@ -274,11 +277,11 @@
                 </div>
             </div>
         </section>
-        <div class="grid-2 pad-inline-6 pad-block-3 media-1000">
+        <div class="grid-2 pad-block-3 media-1000 pad-inline-10">
             <p class="color-4 size-3 bold">Tu seguridad, nuestro compromiso</p>
             <p class="color-3 size-2">Cada detalle que forma parte de nuestro servicio se ha creado teniendo en cuenta tu seguridad</p>
         </div>
-        <div class="grid-3 pad-inline-6 pad-block-2 gap-3 media-1000">
+        <div class="grid-3 pad-block-2 gap-3 media-1000 pad-inline-10">
             <div class=" flex column borde-4 borde-none gap-0 pad-1">
                 <i class="fa-solid fa-circle-user color-6 fa-3x"></i>
                 <p class="color-4 size-2">Botón de seguridad</p>
@@ -300,20 +303,20 @@
     
     </main>
 
-    <footer class="bg-3">
-        <div class="div-footer flex-center-center column bg-2 pad-4 margin-inline-6 margin-block-5 radius-5 color-1 gap-1">
+    <footer class="bg-3 pad-inline-10 pad-top-4">
+        <div class="div-footer flex-center-center column bg-2 radius-5 color-1 gap-2">
             <p class="margin-top-2 borde-3" >Cabify en tu ciudad</p>
-            <p class="div-footer-text size-3 pad-inline-6 bold text-align">Estamos disponibles en 6 países y más de 40 ciudades por todo el mundo</p>
+            <p class="div-footer-text size-3 bold wrap text-align">Estamos disponibles en 6 países y más de 40 ciudades por todo el mundo</p>
             <a class="color-1 borde-2 margin-bottom-1 bold opacity" href="#">Conoce más sobre nosotros</a>
         </div>
-        <div class="flex between pad-inline-6 pad-top-2 pad-bottom-2 footer-apps">
+        <div class="flex between pad-top-2 pad-bottom-2 footer-apps">
             <p class="size-5 color-1">cabify</p>
             <div class="flex gap-1">
                 <a href="#"><img class="width-125" src="images/app-store.png" alt="app-store"></a>
                 <a href="#"><img class="width-125" src="images/google-play.png" alt="google-play"></a>
             </div>
         </div>
-        <section class="grid-4 border-top border-bottom margin-inline-6 pad-block-5 color-1 media-1000">
+        <section class="grid-4 border-top border-bottom pad-block-5 color-1 media-1000">
             <ul class="flex column gap-1">
                 <li class="menu-footer size-2 relative">Conductores<a href="#"><i class="fa-solid fa-chevron-down color-1 chevron-footer absolute none"></i></a>
                     <ul class="submenu-footer flex column">
@@ -384,7 +387,7 @@
                 </li>      
             </ul>
         </section>
-        <div class="flex align pad-inline-6 between pad-block-2 bg-3 footer-options">
+        <div class="flex align between pad-block-2 bg-3 footer-options">
             <select class="select width-250 size-2 color-1 bg-3">
                 <option value="argentina">Argentina</option>
                 <option value="chile">Chile</option>

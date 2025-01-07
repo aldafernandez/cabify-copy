@@ -9,6 +9,8 @@ abrir.addEventListener("click", () => {
     nav.classList.remove('nav');
     nav.classList.add('nav-visible');
     btn.classList.add('btnJs');
+    btn.classList.remove('opacity');
+
 })
 
 cerrar.addEventListener("click", () => {
