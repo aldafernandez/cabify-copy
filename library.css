@@ -413,22 +413,19 @@
           & .menu{
               font-size: var(--size-2);  
             }
-          & .btn-primary {
-              background-color:#dddcdf;
-              padding:0;
-              margin:0;
-            & a{
-                color:var(--color-3);
-                }
-            }
-          & .btn-secondary{
-                border: none;
-                border-radius: 0;
-                padding:0;
-                & p{color:var(--color-3)}
-            }
         }
     }  
+    .btnJs {
+        background-color:#dddcdf;
+        padding:0;
+        margin:0;
+        border-radius: 0;
+        border: none;
+        & a { color: var(--color-3); }
+        & .text { color: var(--color-3); }
+    }
+    
+         
 }
 
 
