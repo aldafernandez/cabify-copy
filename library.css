@@ -517,6 +517,7 @@
             border-bottom: .25px solid #fff;
         }
         & .submenu-footer{display: none;}
+        & .submenu-footer-min{display: none;}
         & .chevron-footer{display: block;}
     }
     .footer-options{
@@ -538,9 +539,21 @@
        left: 0;
        padding: .5rem;
        width: 100%;
-       height:100vh;
+       height:350px;   
        z-index: 1;
     }
+    .menu-footer:hover .submenu-footer-min{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-third);
+        left: 0;
+        padding: .5rem;
+        width: 100%;
+        height: fit-content;   
+        z-index: 1;
+     }
+    
     .menu-footer:hover .chevron-footer {
         transform:translateY(-100%) rotate(180deg);
         transition-duration: .5s;
