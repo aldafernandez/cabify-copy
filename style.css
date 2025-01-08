@@ -1,5 +1,7 @@
 body{ max-width:100%;}
 
+.opacity:hover {color: var(--color-1);}
+
 .img-idioma{
     width: 20px;
     height: 20px;
@@ -23,10 +25,10 @@ body{ max-width:100%;}
 .menu:hover::after{
     content: '▲';
     position: absolute;
-    top: 22px;
-    left: 50px;
+    top: 18px;
+    left: 35px;
     transform: translateX(-50%);
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--bg-fifth);
 }
 

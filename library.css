@@ -64,7 +64,6 @@
     text-decoration: none;
     scroll-behavior: smooth;
     font-family: var(--font);
-    cursor:default;
 }
 /*----COLORS----*/
 .bg-1{ background-color: var(--bg-primary);}
@@ -321,9 +320,11 @@
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     top: 3rem;
-    cursor: pointer;
 }
+.hover:hover {color: #51426d;}
 
+.default {cursor: default;}
+.pointer {cursor: pointer;}
 /*----HOVER----*/
 
 /*----POSITION-----*/
@@ -346,9 +347,8 @@
 /*----SPAN----*/
 
 /*----TOP----*/
-.submenu-top{top:1.8rem;}
-.submenu-top-1{top: 50px;}
 .top-1{top:1rem}
+.top-2 {top:5rem}
 /*----TOP----*/
 
 /*----BOTONES----*/
@@ -370,7 +370,7 @@
 /*----SELECTION----*/
 
 /*----OPACITY-----*/
-.opacity:hover{ opacity: 0.8;}
+.opacity:hover {opacity: 0.8;}
 /*----OPACITY-----*/
 
 /*----RESPONSIVE----*/
@@ -406,7 +406,7 @@
         & .icon-xmark {
         position:absolute;
         display: block;
-        top: 5%;
+        top: 2%;
         right: 0;
         cursor: pointer;
         } 
@@ -416,12 +416,14 @@
           padding-left: 0;
           width: 100%;
           gap: .60rem;
-          & .logo-2{
+            & .logo-2{
               display: block;
             }
-          & .menu{
+            & .menu a:hover  {color: #51426d;}
+            & .menu{
               font-size: var(--size-2);  
             }
+        
         }
     }  
     .btnJs {
@@ -437,8 +439,8 @@
         }
         & .text { color: var(--color-3); }
     }
-    .menu:hover .submenu {display: none;}  
-    .menu:hover::after{content: '';} /*no funciona*/ 
+    /*.menu:hover .submenu {display: none;} */ 
+    .menu:hover::after{display: none;}
 }
 
 
@@ -547,4 +549,8 @@
     
 }
 /*----RESPONSIVE----*/
-
+.submenu  ul li{
+    display: flex;
+    flex-direction: column;
+    & .nav-foto {display: none;}
+}

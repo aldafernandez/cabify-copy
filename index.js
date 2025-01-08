@@ -2,6 +2,7 @@ const nav = document.querySelector('#nav');
 const abrir = document.querySelector('#open-menu');
 const cerrar = document.querySelector('#close-menu');
 const btn = document.querySelector('#btnJs');
+const menu = document.querySelector('#menu');
 
 
 
