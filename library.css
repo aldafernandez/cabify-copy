@@ -552,8 +552,8 @@
         width: 100%;
         height: fit-content;   
         z-index: 1;
-     }
-    
+    }
+    /*- ESTE MENÚ DESPLEGABLE LUEGO VA A SER MODIFICADO PARA ABRIR CON JAVA-*/
     .menu-footer:hover .chevron-footer {
         transform:translateY(-100%) rotate(180deg);
         transition-duration: .5s;
